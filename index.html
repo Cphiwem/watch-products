@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product=watch</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Sphiwe</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <i class="fas fa-shopping-cart"></i>
+      </ul>
+    </nav>
+
+    <div class="flex-items">
+      <div class="left">
+        <div class="main-img">
+          <img
+            src="img/3.jpg"
+            onclick="showImg(this.src)"
+            width="800px"
+            height="500px"
+          />
+        </div>
+        <div class="images">
+          <div class="more-img">
+            <img
+              src="img/5.jpg"
+              onclick="showImg(this.src)"
+              width="350px"
+              height="350px"
+            />
+          </div>
+          <div class="more-img">
+            <img
+              src="img/8.jpg"
+              onclick="showImg(this.src)"
+              width="350px"
+              height="350px"
+            />
+          </div>
+          <div class="more-img">
+            <img
+              src="img/9.jpg"
+              onclick="showImg(this.src)"
+              width="350px"
+              height="350px"
+            />
+          </div>
+          <div class="more-img">
+            <img
+              src="img/10.jpg"
+              onclick="showImg(this.src)"
+              width="350px"
+              height="350px"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="url">Home > Product > watches</div>
+        <div class="pname">Watches For men</div>
+        <div class="rating">
+          <br />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+            eligendi hic enim quod placeat similique optio.
+          </p>
+          <br />
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">Price : $100</div>
+        <div class="color">
+          <p>Color:</p>
+          <div class="wcolor active">Black</div>
+          <div class="wcolor whit">White</div>
+          <div class="wcolor blu">Blue</div>
+          <div class="wcolor gra">Gray</div>
+        </div>
+        <div class="quantity">
+          <p>Quantity :</p>
+          <input type="number" min="1" max="10" value="1" />
+        </div>
+        <div class="btn-box">
+          <button class="cart-btn">Add to cart</button>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
